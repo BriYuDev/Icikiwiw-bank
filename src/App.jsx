@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Style from './Style';
+import Style from './style';
 import {
   Billing,
   CTA,

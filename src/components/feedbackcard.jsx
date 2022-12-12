@@ -10,6 +10,7 @@ class FeedbackCard extends Component {
           src={quotes}
           alt='quotes'
           className='w-[42px] h-[27px] object-contain'
+          loading='lazy'
         />
         <p className='font-poppins font-normal text-[18px] leading-[32px] sp-text my-10'>
           {this.props.card.content}
@@ -19,6 +20,7 @@ class FeedbackCard extends Component {
             src={this.props.card.img}
             alt={this.props.card.name}
             className='w-[48px] h-[48px] rounded-full'
+            loading='lazy'
           />
 
           <div className='flex flex-col ml-4'>

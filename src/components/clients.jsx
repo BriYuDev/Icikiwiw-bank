@@ -17,6 +17,7 @@ class Clients extends Component {
                 src={client.logo}
                 alt='client'
                 className='logo-cmpny sm:w-[192px] w-[100px] object-contain'
+                loading='lazy'
               />
             </div>
           ))}

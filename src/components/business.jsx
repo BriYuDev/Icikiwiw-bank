@@ -23,6 +23,7 @@ class FeatureCard extends Component {
             src={this.state.feature.icon}
             alt='icon'
             className='w-[50%] h-[50%] object-contain'
+            loading='lazy'
           />
         </div>
         <div className='flex-1 flex flex-col ml-3'>

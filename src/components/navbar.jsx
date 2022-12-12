@@ -22,6 +22,7 @@ class NavBar extends Component {
             src={logo}
             alt='hoobank'
             className='w-[124px] h-[32px]'
+            loading='lazy'
           />
 
           <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
@@ -47,6 +48,7 @@ class NavBar extends Component {
               alt='menu'
               className='w-[28px] h-[28px] object-contain'
               onClick={this.handleMenuClick}
+              loading='lazy'
             />
 
             <div

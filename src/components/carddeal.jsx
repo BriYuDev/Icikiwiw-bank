@@ -25,6 +25,7 @@ class CardDeal extends Component {
             src={card}
             alt='card'
             className='w-[100%] h-[100%]'
+            loading='lazy'
           />
         </div>
       </section>

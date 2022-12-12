@@ -20,6 +20,7 @@ class GetStarted extends Component {
               src={arrowUp}
               alt='arrow'
               className='w-[23px] h-[23px] object-contain mr-2'
+              loading='lazy'
             />
           </div>
           <p className='font-poppins font-medium text-[18px] leading-[23px]'>

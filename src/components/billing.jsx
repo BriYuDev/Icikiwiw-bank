@@ -15,6 +15,7 @@ class Billing extends Component {
             src={bill}
             alt='billing'
             className='w-[100%] h-[100%] relative z-[5]'
+            loading='lazy'
           />
 
           <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
@@ -35,11 +36,13 @@ class Billing extends Component {
               src={apple}
               alt='apple_store'
               className='rounded-[5px] dwn-btn w-[128px] h-[42px] object-contain mr-5 cursor-pointer'
+              loading='lazy'
             />
             <img
               src={google}
               alt='google_play'
               className='rounded-[5px] dwn-btn w-[128px] h-[42px] object-contain cursor-pointer'
+              loading='lazy'
             />
           </div>
         </div>

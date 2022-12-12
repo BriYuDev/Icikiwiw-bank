@@ -14,6 +14,7 @@ class Footer extends Component {
               src={logo}
               alt='hoobank'
               className='w-[266px] h-[72px] object-contain'
+              loading='lazy'
             />
             <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
               A new icikiwir app for everyone.
@@ -53,6 +54,7 @@ class Footer extends Component {
               src={copyright}
               alt='copyright'
               className='w-[16px] h-[16px] object-contain mr-2'
+              loading='lazy'
             />
             2050 ICIKIWIR All Rights Reserved.
           </p>
@@ -66,6 +68,7 @@ class Footer extends Component {
                 className={`sc-img w-[21px] h-[21px] object-contain cursor-pointer ${
                   index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'
                 }`}
+                loading='lazy'
               />
             ))}
           </div>
